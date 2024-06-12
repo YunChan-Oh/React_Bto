@@ -1,0 +1,147 @@
+#sidebar {
+    position: relative;
+    left: 0;
+    top: 0;
+
+    width: var(--sidebar-width);
+    height: 100vh;
+
+    background: black;
+}
+
+#sidebar .logo {
+    width: 155px;
+    height: 43.39px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    top: 33px;
+}
+
+#sidebar .nav ul li {
+    margin-bottom: 18px;
+}
+
+#sidebar .logo img {
+    position: absolute;
+    width: 50px;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#sidebar .logo span {
+    right: 0;
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    overflow: hidden;
+    width: 100px;
+    height: 42px;
+    color: #363636;
+    text-align: center;
+    font-family: WAGURI, ui-serif;
+    font-size: 35px;
+
+    padding-top: 2px;
+}
+
+#sidebar .unLogin {
+    position: absolute;
+
+    top: 106.16px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 242px;
+    height: 42.467px;
+
+    border-radius: 4px;
+    background: #2C2C2C;
+}
+
+#sidebar .unLogin p {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI, ui-serif;
+    font-size: 16px;
+
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#sidebar .inLogin p {
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: #3F42FF;
+    font-family: WAGURI, ui-serif;
+    font-size: 30px;
+}
+
+#sidebar hr {
+    position: absolute;
+    width: 251px;
+    border: #2C2C2C solid 1px;
+
+    top: 166px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sidebar .nav {
+    position: absolute;
+
+    top: 182px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#sidebar .logout {
+    position: absolute;
+
+    bottom: 93px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 242px;
+    height: 55px;
+
+    border-radius: 4px;
+    background: #212121;
+}
+
+#sidebar .logout div {
+    position: relative;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 95.15px;
+    height: 24.18px;
+}
+
+#sidebar .logout img {
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#sidebar .logout span {
+    position: absolute;
+
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+
+    color: #3F42FF;
+    font-family: WAGURI, ui-serif;
+}

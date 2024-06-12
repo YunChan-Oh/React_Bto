@@ -1,0 +1,30 @@
+#nav {
+    position: relative;
+
+    width: calc(var(--sidebar-width) - 58px);
+    height: 50px;
+
+    left: 50%;
+    transform: translateX(-50%);
+
+    border-radius: 4px;
+}
+
+#nav img {
+    position: absolute;
+
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#nav span {
+    position: absolute;
+    left: 64px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    color: #3F42FF;
+    font-family: WAGURI, ui-serif;
+    font-size: 20px;
+}

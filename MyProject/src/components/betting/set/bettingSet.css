@@ -1,0 +1,9 @@
+#BettingSet {
+    width: 22.5rem;
+    height: 13.6rem;
+}
+
+#BettingSet .emptyspace {
+    width: 22.5rem;
+    height: 0.25rem;
+}

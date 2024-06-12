@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#BettingTitle {
+    width: 22.5rem;
+    height: 3.75rem;
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 0.375rem;
+    background: #363636;
+}
+
+#BettingTitle .main-title {
+    width: 8.37881rem;
+    height: 1.08694rem;
+    flex-shrink: 0;
+    
+    margin: 0.75rem auto 0.5rem auto;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#BettingTitle .deadline {
+    width: 10.24913rem;
+    height: 0.86956rem;
+    flex-shrink: 0;
+    
+    color: #A6A6A6;
+    text-align: center;
+    font-family: WAGURI;
+    font-size: 0.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+

@@ -1,0 +1,33 @@
+.App {
+  width: 100vi;
+  height: 100vh;
+  background-color: #1F2329;
+  display: flex;
+  padding: 20px;
+  position: relative; /* 자식 요소들의 절대 위치를 지정할 수 있게 함 */
+}
+
+.BettingSet {
+  padding: 20px;
+  position: absolute; /* 절대 위치 지정 */
+}
+
+.BettingSet1 {
+  top: 620px;
+  left: 370px;
+}
+
+.BettingSet2 {
+  top: 620px;
+  left: 780px;
+}
+
+.BettingSet3 {
+  top: 620px;
+  left: 1180px;
+}
+
+.BettingSet4 {
+  top: 620px;
+  left: 1580px;
+}

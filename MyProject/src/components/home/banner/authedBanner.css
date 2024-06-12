@@ -1,0 +1,104 @@
+#authenticatedHome {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100vw - var(--sidebar-width));
+}
+
+#authenticatedHome .semi-title {
+    position: absolute;
+    left: 91px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI, ui-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#authenticatedHome .banners {
+    position: relative;
+}
+
+#authenticatedHome .banners .semi-title {
+    position: absolute;
+    top: calc((100vh * 0.13) - 17px);
+
+    transform: translatey(-100%);
+}
+
+#authenticatedHome .banners .banner {
+    position: absolute;
+    top: calc(100vh * 0.13);
+    right: 70px;
+
+    width: calc(100% - 140px);
+    height: 270px;
+    border-radius: 20px;
+
+    background: linear-gradient(90deg, #4D4FE2 0%, #1A8FEC 100%);
+}
+
+#authenticatedHome .banners .banner h1 {
+    position: absolute;
+    top: 31px;
+    left: 37px;
+
+    color: #FFF;
+    font-family: WAGURI, ui-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#authenticatedHome .banners .banner .br {
+    position: absolute;
+    top: 114px;
+    left: 21px;
+
+    width: calc( 100% - 310px - 3%);
+    height: 1px;
+    background: white;
+}
+
+#authenticatedHome .banners .banner h2 {
+    position: absolute;
+    left: 37px;
+    top: 145px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI, ui-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#authenticatedHome .banners .banner .user {
+    position: absolute;
+    left: 223px;
+}
+
+#authenticatedHome .banners .banner h3 {
+    position: absolute;
+    left: 37px;
+    top: 202px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI, ui-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#authenticatedHome .banners .banner img {
+    position: absolute;
+    bottom: 37px;
+    right: 1%;
+}

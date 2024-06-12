@@ -1,0 +1,97 @@
+#home {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100vw - var(--sidebar-width));
+}
+
+#home .semi-title {
+    position: absolute;
+    left: 91px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: WAGURI, ui-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#home .menu .semi-title {
+    position: absolute;
+    top: calc((100vh * 0.13) + 350px);
+
+    transform: translatey(-100%);
+}
+
+#home .menu .menus {
+    position: relative;
+
+    width: calc( 100vw - var(--sidebar-width) - 140px );
+    left: 70px;
+    height: 131px;
+    top: calc((100vh * 0.13) + 367px);
+}
+
+#home .menus section {
+    float: left;
+    margin-right: 18px;
+
+    width: calc((100vw - var(--sidebar-width) - 140px) / 2 - 9px );
+    height: 131px;
+    background: linear-gradient(90deg, #9EA3B3 5.97%, #44464D 105.97%);
+    border-radius: 20px;
+}
+
+#home .menu .batting {
+    position: absolute;
+    left: 0;
+    margin-right: 18px;
+}
+
+#home .menu .ranking {
+    position: absolute;
+    right: 0;
+    margin-right: 0;
+}
+
+#home .menu .title{
+    position: relative;
+
+    top: 34px;
+
+    color: #FFF;
+    font-family: WAGURI, ui-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#home .menu .batting p, #home .menu .ranking p {
+    left: 35px;
+}
+
+#home .menu .link {
+    position: relative;
+
+    top: 40px;
+
+    color: #FFF;
+    font-family: WAGURI, ui-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#home .menu img {
+    position: absolute;
+    right: 50px;
+    top: -3px;
+}
+
+#home .menu .trophy {
+    top: 5px;
+}
