@@ -13,7 +13,7 @@ const Sidebar = () => {
 
     useEffect(() => {
         if (login) {
-            setUserName("한태영")
+            setUserName("오윤찬")
             setCoin(100000000)
             setRanking(1)
         }
